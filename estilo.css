@@ -1,0 +1,97 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Display', sans-serif;
+    }
+
+    body{
+    background-color: #f2f4f7;
+    }
+
+    .logo{
+        margin: 10px;
+    }
+
+    .formulario{
+        margin: 10px;
+        background-color: #ffff;
+        padding-bottom: 24px;
+        padding-top: 10px;
+        border-radius: 8px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+    }
+
+    input{
+        font-size: 17px;
+        padding: 14px 16px;
+        width: 330px;
+        margin: 6px 0px;
+        border-radius: 6px;
+    }
+
+    .formulario .campos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principal{
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 112px;
+        padding-top: 72px;
+    }
+
+    .paises{
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .paises li{
+        padding-right: 10px;
+        list-style: none;
+    }
+
+    .utilitarios{
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .utilitarios li{
+        padding-right: 20px;
+    }
+
+    .logo img{
+        height: 106px;
+    }
+
+    .rodape{
+        background-color: #ffff;
+        padding-top: 20px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteudo-rp{
+        width: 980px;
+    }
+
+    #btn-entrar{
+        font-size: 20px;
+        font-weight: bold; /negrito/
+        border-radius: 6px;
+        padding: 14px 16px;
+        width: 365px;        
+    }
+    .logo p{
+        font-size: 28px;
+        font-weight: normal;
+    }
